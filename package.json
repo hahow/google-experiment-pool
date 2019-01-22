@@ -1,0 +1,26 @@
+{
+  "name": "google-experiment-pool",
+  "version": "1.0.0",
+  "description": "用來測試 google 工具的 playground",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages-deploy": "^0.5.1",
+    "install": "^0.12.2",
+    "npm": "^6.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages-deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hahow/google-experiment-pool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hahow/google-experiment-pool/issues"
+  },
+  "homepage": "https://github.com/hahow/google-experiment-pool#readme"
+}
