@@ -23,13 +23,23 @@
 </script>
   
 <script>
+  function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+  var random1 = getRandomInt(1, 8);
+  var random2 = getRandomInt(1, 10);
+</script>
+  
+<script>
   gtag('event', 'page_view', {
     'send_to': 'AW-767595494',
     'edu_pagetype': 'program',
-    'edu_pid': 'course01',
-    'edu_plocid': 'location01',
+    'edu_pid': 'course' + random1,
+    'edu_plocid': 'location' + random1,
     'edu_totalvalue': 1000,
-    'user_id': 'user01'
+    'user_id': 'user' + random2
   });
 </script>
 
