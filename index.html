@@ -10,17 +10,7 @@
 <body>
 <h1>Google Experiment pool</h1>
 <button>購買</button>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58619718-4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-58619718-4');
-</script>
-
+  
 <!-- Global site tag (gtag.js) - Google Ads: 767595494 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-767595494"></script>
 <script>
@@ -28,8 +18,21 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
+  gtag('config', 'UA-58619718-4');
   gtag('config', 'AW-767595494');
 </script>
+  
+<script>
+  gtag('event', 'page_view', {
+    'send_to': 'AW-767595494',
+    'edu_pagetype': 'program',
+    'edu_pid': 'course01',
+    'edu_plocid': 'location01',
+    'edu_totalvalue': 1000,
+    'user_id': 'user01'
+  });
+</script>
+
 
 </body>
 </html>
